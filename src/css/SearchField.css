@@ -1,0 +1,17 @@
+.search-field {
+  padding: 24px;
+}
+
+.search-field input {
+  padding: 16px;
+  width: 100%;
+  box-shadow: 1px 2px 5px rgba(0,0,0,.2);
+  will-change: box-shadow;
+  transition: box-shadow 0.3s ease-in;
+}
+
+.search-field input:hover,
+.search-field input:focus,
+.search-field input:active {
+  box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+}
